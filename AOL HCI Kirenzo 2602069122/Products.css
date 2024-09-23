@@ -1,0 +1,1068 @@
+@import url("https://fonts.googleapis.com/css?family=Scheherazade:400,700|Poppins:400,600|Vast+Shadow:400|Scope+One:400|Playfair+Display:700|Shojumaru:400");
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --woodsmoke: rgba(16, 16, 16, 1);
+    --yellow-metal: rgba(108, 92, 54, 1);
+    --yellow-metal-2: rgba(109, 92, 54, 1);
+    --quill-gray: rgba(210, 210, 210, 1);
+    --gold: rgba(255, 215, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxs: 5px;
+    --font-size-xxs: 6px;
+    --font-size-s: 9px;
+    --font-size-m: 12px;
+    --font-size-l: 14px;
+    --font-size-xl: 15px;
+    --font-size-m2: 8px;
+
+    --font-family-playfair_display: "Playfair Display";
+    --font-family-poppins: "Poppins";
+    --font-family-scheherazade: "Scheherazade";
+    --font-family-scope_one: "Scope One";
+    --font-family-vast_shadow: "Vast Shadow";
+}
+
+/* Classes */
+
+.vastshadow-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-vast_shadow);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}.scheherazade-normal-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}.scopeone-normal-black-6px {
+    color: var(--black);
+    font-family: var(--font-family-scope_one);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}.poppins-normal-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-bold-black-5px {
+    color: var(--black);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-semi-bold-quill-gray-15px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-normal-quill-gray-12px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-gold-8px {
+    color: var(--gold);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-white-8px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.products-1-2 {
+    align-items: center;
+    background-color: #6d5c36;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    overflow: hidden;
+    width: 360px;
+}
+
+.overlap-group8 {
+    align-items: center;
+    background-color: var(--white);
+    border: 1.5px solid;
+    display: flex;
+    height: 90px;
+    margin-left: 1px;
+    margin-top: 18px;
+    width: 225px;
+}
+
+.omegalogo-2 {
+    height: 24px;
+    margin-bottom: 3px;
+    object-fit: cover;
+    width: 45px;
+}
+
+.omega-seamaster-210-1 {
+    align-self: flex-start;
+    height: 74px;
+    margin-left: 16px;
+    object-fit: cover;
+    width: 61px;
+}
+
+.flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    min-height: 40px;
+    width: 71px;
+}
+
+.starts-from-usd {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 74px;
+    min-height: 8px;
+    text-align: center;
+    width: 64px;
+}
+
+.omega-seamaster-210 {
+    color: var(black);
+    font-family: var(--font-family-shojumaru);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 29px;
+    text-align: center;
+    width: 71px;
+}
+
+.frame-1 {
+    align-items: center;
+    gap: 921px;
+    margin-right: 1px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.products-1-2 .frame-1 {
+    border: 1.5px solid;
+    border-color: var(--black);
+    display: flex;
+    height: 180px;
+    width: 225px;
+}
+
+.rectangle-21 {
+    align-self: flex-end;
+    height: 168px;
+    margin-bottom: -133.5px;
+    margin-left: -915px;
+    width: 5px;
+}
+
+.overlap-group5-1 {
+    height: 163px;
+    margin-top: 1px;
+    position: relative;
+    width: 222px;
+}
+
+.rolex-oyster-31-1 {
+    height: 54px;
+    left: 154px;
+    object-fit: cover;
+    position: absolute;
+    top: 90px;
+    width: 32px;
+}
+
+.rectangle-25{
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 76px;
+    left: 141px;
+    position: absolute;
+    top: 87px;
+    width: 57px;
+}
+
+.price-4 {
+    left: 138px;
+    top: 150px;
+    width: 64px;
+}
+
+.products-1-2 .price-6 {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.group-1 {
+    align-items: flex-start;
+    display: flex;
+    gap: 4px;
+    height: 163px;
+    left: 0;
+    min-width: 222px;
+    position: absolute;
+    top: 0;
+}
+
+.products-1-2 .overlap-group-container-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-left: 100px;
+}
+
+.overlap-group-container-1 {
+    min-height: 163px;
+    width: 66px;
+}
+
+.overlap-group4 {
+    height: 76px;
+    margin: 2px;
+    position: relative;
+    width: 64px;
+    margin-top: -500px;
+}
+
+.rectangle-2 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 76px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+
+.price {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 64px;
+}
+
+.rolex {
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 59px;
+    width: 57px;
+}
+
+.rolex-sky-dweller-1 {
+    height: 55px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 31px;
+}
+
+.overlap-group-1 {
+    height: 76px;
+    position: relative;
+    width: 66px;
+}
+
+.rectangle-23 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 76px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+
+.rolex-cellini-1 {
+    height: 54px;
+    left: 17px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 33px;
+}
+
+.products-1-2 .rolex-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+}
+
+.rolex-cellini {
+    left: 12px;
+    width: 43px;
+}
+
+.price-3 {
+    left: 0;
+    top: 64px;
+    width: 66px;
+}
+
+.overlap-group-2 {
+    height: 76px;
+    position: relative;
+    width: 64px;
+}
+
+.rolex-yacht-master-1 {
+    height: 55px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 35px;
+}
+
+.overlap-group-container-3 {
+    min-height: 163px;
+    width: 64px;
+}
+
+.rolex-cosmograph {
+    left: 3px;
+    width: 57px;
+}
+
+.price-1 {
+    left: 0;
+    top: 64px;
+    width: 64px;
+}
+
+.rolex-cosmograph-1 {
+    height: 55px;
+    left: 17px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 31px;
+}
+
+.rolex-submariner {
+    height: 55px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 35px;
+}
+
+.rolex-oyster-31 {
+    left: 141px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 144px;
+    width: 57px;
+}
+
+.overlap-group10 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--black);
+    display: flex;
+    gap: 74px;
+    height: 90px;
+    margin-right: 1px;
+    margin-top: 6px;
+    min-width: 225px;
+}
+
+.flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-height: 38px;
+    width: 71px;
+}
+
+.rolex-minds-daytona {
+    color: var(--black);
+    font-family: var(--font-family-vast_shadow);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 29px;
+    text-align: center;
+    width: 71px;
+    margin-top: -668px;
+    margin-left: 70px;
+}
+
+.rolexlogo-2 {
+    height: 31px;
+    margin-top: -662px;
+    margin-left: 85px;
+    object-fit: cover;
+    width: 54px;
+}
+
+.overlap-group6 {
+    height: 30px;
+    position: relative;
+    width: 360px;
+}
+
+.about-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 214px;
+    min-width: 27px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 9px;
+    margin-left: 6px;
+    min-height: 12px;
+    width: 27px;
+}
+
+.home-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 27px;
+}
+
+.home-10 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 186px;
+    min-width: 19px;
+    position: absolute;
+    top: 8px;
+}
+
+.home {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 19px;
+}
+
+.place {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 9px;
+    margin-left: 5px;
+    min-height: 12px;
+    width: 19px;
+}
+
+.products {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    left: 248px;
+    min-width: 28px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-4{
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 28px;
+}
+
+.home-5 {
+    color: #ffd700;
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    margin-top: 9px;
+    margin-left: 7px;
+    min-height: 12px;
+    width: 28px;
+}
+
+.watchgoods-low-resol {
+    height: 9px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    top: 9px;
+    width: 73px;
+}
+
+.rectangle-1 {
+    background: linear-gradient(150deg, rgb(9.92, 9.92, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0) 100%);
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    margin-left: 9px;
+    margin-top: 7px;
+    width: 360px;
+}
+
+.locations {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 280px;
+    min-width: 25px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-6 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 25px;
+}
+
+.home-7 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 9px;
+    margin-left: 8px;
+    min-height: 12px;
+    width: 25px;
+}
+
+.contact-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 310px;
+    min-width: 31px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 31px;
+}
+
+.home-9 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 9px;
+    margin-left: 13px;
+    min-height: 12px;
+    width: 31px;
+}
+
+.home-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    left: 186px;
+    min-width: 19px;
+    position: absolute;
+    top: 8px;
+}
+
+.overlap-group7 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-right: 1px;
+    height: 101px;
+    width: 361px;
+}
+
+.minds-rolex-daytona-1 {
+    height: 73px;
+    margin-right: 5px;
+    object-fit: cover;
+    margin-top: -80px;
+    width: 62px;
+}
+
+.flex-row {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: -68px;
+    height: 200px;
+    width: 357px;
+}
+
+.overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    min-height: 71px;
+    width: 49px;
+}
+
+.overlap-group14 {
+    height: 30px;
+    position: relative;
+    width: 49px;
+}
+
+.piagetlogo-1 {
+    height: 16px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 40px;
+}
+
+.rectangle-15 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    cursor: pointer;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 49px;
+}
+
+.overlap-group11 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    display: flex;
+    height: 30px;
+    min-width: 49px;
+}
+
+.montblanclogo-1 {
+    cursor: pointer;
+    height: 22px;
+    object-fit: cover;
+    width: 40px;
+}
+
+.overlap-group1 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    display: flex;
+    height: 30px;
+    margin-left: 10px;
+    min-width: 49px;
+}
+
+.pateklogo-1 {
+    cursor: pointer;
+    height: 21px;
+    object-fit: cover;
+    width: 39px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    height: 30px;
+    margin-left: 3px;
+    min-width: 49px;
+}
+
+.panerailogo-1 {
+    cursor: pointer;
+    height: 21px;
+    object-fit: cover;
+    width: 42px;
+}
+
+.overlap-group15 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    height: 30px;
+    width: 49px;
+}
+
+.omegalogo-1 {
+    height: 23px;
+    object-fit: cover;
+    width: 43px;
+}
+
+.overlap-group-3 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    height: 30px;
+    min-width: 49px;
+}
+
+.rolexlogo-1 {
+    height: 22px;
+    object-fit: cover;
+    width: 41px;
+    margin-left: 5px;
+}
+
+.overlap-group2 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    height: 30px;
+    min-width: 49px;
+    margin-left: 3px;
+
+}
+
+.tagheuerlogo-1 {
+    cursor: pointer;
+    height: 23px;
+    object-fit: cover;
+    width: 26px;
+}
+
+.cartierlogo-1 {
+    cursor: pointer;
+    height: 20px;
+    object-fit: cover;
+    width: 42px;
+}
+
+.overlap-group-container-2 {
+    min-height: 71px;
+    width: 50px;
+}
+
+.overlap-group3{
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    height: 30px;
+    width: 49px;
+    margin-left: 7px;
+    margin-top: 10.5px;
+  
+}
+
+.chopardlogo-1 {
+    cursor: pointer;
+    height: 22px;
+    object-fit: cover;
+    width: 45px;
+}
+
+.overlap-group5 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-color: var(--yellow-metal);
+    border: 1.5px solid;
+    display: flex;
+    margin-left: 7px;
+    height: 30px;
+    width: 49px;
+}
+
+.hublotlogo-1 {
+    cursor: pointer;
+    height: 21px;
+    object-fit: cover;
+    width: 41px;
+}
+
+.grou-container {
+    align-items: center;
+    background: radial-gradient(100% 80% at 50% 50%, rgb(9.92, 9.92, 9.92) 0%, rgb(9.92, 9.92 ,9.92) 39.07%, rgba(9.92, 9.92, 9.92, 0) 93.05%);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: -200px;
+    min-height: 73px;
+    width: 360px;
+}
+
+.flex-row {
+    align-items: flex-start;
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    display: flex;
+    gap: 3px;
+    height: 41px;
+    justify-content: flex-end;
+    min-width: 146px;
+}
+
+.watchgoods-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 29px;
+    width: 119px;
+}
+
+.watchgoods {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 12px;
+    width: 119px;
+}
+
+.pngwing-container {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 1px;
+    min-height: 32px;
+    width: 15px;
+}
+
+.ig {
+    height: 16px;
+    object-fit: cover;
+    width: 15px;
+}
+
+.gmail {
+    height: 11px;
+    object-fit: cover;
+    width: 14px;
+}
+
+.watchgoods-low-resol-1 {
+    height: 13px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 110px;
+}
+
+.frame-2 {
+    align-items: flex-end;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+
+.overlap-group-container-5 {
+    margin-left: 5px;
+    min-height: 163px;
+    width: 64px;
+}
+
+.omega-speedmaster-1 {
+    height: 55px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 38px;
+}
+
+.products-1-2 .omega-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.omega-speed {
+    left: 3px;
+    top: 58px;
+    width: 57px;
+}
+
+.price-2 {
+    left: 0;
+    top: 63px;
+    width: 64px;
+}
+
+.omega-beijing {
+    left: 3px;
+    top: 57px;
+    width: 57px;
+}
+
+.omega-beijing-1 {
+    height: 54px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 32px;
+}
+
+.overlap-group2-1 {
+    height: 76px;
+    margin-left: 1px;
+    position: relative;
+    width: 64px;
+}
+
+.omega-co-axial-300-m-1 {
+    height: 55px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 33px;
+}
+
+.omega {
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+    width: 57px;
+}
+
+.rectangle-2-1 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 76px;
+    left: 4px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+
+.omega-diver {
+    left: 12px;
+    top: 57px;
+    width: 43px;
+}
+
+.omega-diver-1 {
+    height: 54px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 36px;
+}
+
+.price-5 {
+    left: 0;
+    top: 63px;
+    width: 66px;
+}
+
+.overlap-group-container-4 {
+    margin-left: 3px;
+    min-height: 163px;
+    width: 64px;
+}
+
+.omega-moonwatch-1 {
+    height: 55px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 36px;
+}
+
+.omega-sea-300-m {
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    width: 57px;
+}
+
+.omega-seamaster-300-m-1 {
+    height: 54px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 31px;
+}

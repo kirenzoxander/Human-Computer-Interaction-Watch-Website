@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    .contact-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #6d5c36;
+      border: 1px none;
+      flex-direction: column;
+      height: 800px;
+      width: 360px;
+    }
+
+    .rectangle-1 {
+    background: linear-gradient(150deg, rgb(9.92, 9.92, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0) 100%);
+    height: 30px;
+    position: absolute;
+    width: 360px;
+    }
+
+    .watchgoods-low-resol {
+    height: 9px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 73px;
+    margin-top: 8px;
+    margin-left: 8px;
+    }
+
+    form {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+    }
+  </style>
+  <script src="Contact Us.js" defer></script>
+</head>
+
+<body>
+  <div class="rectangle-1"></div>
+  <div class="contact-us">
+    <img
+    class="watchgoods-low-resol"
+    src="watchgoods-low-resolution-logo-color-on-transparent-background.png"
+    />
+    
+    <form>
+      Contact Us
+      <br>
+      Username:
+      <input type="text" name="" id="username">
+      <br>
+
+      Email:
+      <input type="email" name="" id="email">
+      <br>
+
+      Password:
+      <input type="password" name="" id="password">
+      <br>
+
+      Age:
+      <input type="number" name="" id="age">
+      <br>
+
+      Gender:
+      <input type="radio" name="gender" id="male"> Male
+      <input type="radio" name="gender" id="female"> Female
+      <br>
+
+      <input type="checkbox" name="" id="agreement"> I agree with the terms and conditions
+      <br>
+      <label id="error_message" style="color:red"></label>
+      <button type="button" onclick="validate()">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

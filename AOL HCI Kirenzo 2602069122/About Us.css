@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css?family=Scheherazade:400,700|Poppins:400,600|Vast+Shadow:400|Scope+One:400|Playfair+Display:700|Shojumaru:400");
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --woodsmoke: rgba(16, 16, 16, 1);
+    --yellow-metal: rgba(108, 92, 54, 1);
+    --yellow-metal-2: rgba(109, 92, 54, 1);
+    --quill-gray: rgba(210, 210, 210, 1);
+    --gold: rgba(255, 215, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxs: 5px;
+    --font-size-xxs: 6px;
+    --font-size-s: 9px;
+    --font-size-m: 12px;
+    --font-size-l: 14px;
+    --font-size-xl: 15px;
+    --font-size-m2: 8px;
+
+    --font-family-playfair_display: "Playfair Display";
+    --font-family-poppins: "Poppins";
+    --font-family-scheherazade: "Scheherazade";
+    --font-family-scope_one: "Scope One";
+    --font-family-vast_shadow: "Vast Shadow";
+}
+
+/* Classes */
+
+.vastshadow-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-vast_shadow);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}.scheherazade-normal-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}.scopeone-normal-black-6px {
+    color: var(--black);
+    font-family: var(--font-family-scope_one);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}.poppins-normal-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-bold-black-5px {
+    color: var(--black);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-semi-bold-quill-gray-15px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-normal-quill-gray-12px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-gold-8px {
+    color: var(--gold);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-white-8px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.about-us {
+    align-items: center;
+    background-color: #6d5c36;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 360px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: none;
+}
+
+.visit {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 7px;
+    margin-top: -20px;
+    min-height: 19px;
+    text-align: center;
+    width: 239px;
+}
+.istockphoto {
+    height: 191px;
+    object-fit: cover;
+    width: 360px;
+    margin-top: -15px;
+}
+
+.unparalleled {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 1px;
+    margin-top: 3px;
+    min-height: 19px;
+    text-align: center;
+    width: 239px;
+}
+
+.overlap-group1 {
+    height: 150px;
+    margin-right: 1px;
+    margin-top: 6px;
+    position: relative;
+    width: 279px;
+}
+
+.rectangle {
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 150px;
+    left: 0;
+    top: 0;
+    width: 279px;
+    margin-top: 0px;
+}
+
+.rectangle2 {
+    border: 1.5px solid;
+    border-color: var(--black);
+    height: 150px;
+    left: 0;
+    top: 0;
+    width: 279px;
+    margin-top: -30px;
+}
+
+.welcome {
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    margin-top: 262px;
+    margin-left: 48px;
+    top: 4px;
+    width: 271px;
+}
+
+.overlap-group3 {
+    height: 150px;
+    margin-right: 1px;
+    margin-top: 24px;
+    position: relative;
+    width: 279px;
+}
+
+.our {
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    margin-top: -27px;
+    width: 271px;
+}
+
+.r000 {
+    height: 88px;
+    margin-top: 7px;
+    object-fit: cover;
+    width: 360px;
+}
+
+.about-us-2 {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 3px;
+    min-height: 27px;
+    text-align: center;
+    width: 346px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background: linear-gradient(100deg, rgb(9.92, 9.92, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0) 100%);
+    display: flex;
+    height: 30px;
+    min-width: 320px;
+    padding: 8px 7px;
+    margin-left: -5px;
+}
+
+.locations {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 2px;
+    min-width: 25px;
+}
+
+.home-6 {
+align-items: flex-start;
+display: flex;
+height: 12px;
+min-width: 25px;
+}
+
+.home-7 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 25px;
+}
+
+.about-us-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 9px;
+    min-width: 27px;
+}
+
+.home-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 27px;
+}
+
+.home-3 {
+    color: #ffd700;
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1px;
+    margin-left: 1px;
+    min-height: 12px;
+    width: 27px;
+}
+
+.contact-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 13px;
+    margin-top: 2px;
+    min-width: 31px;
+}
+
+.home-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 31px;
+}
+
+.home-9 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 31px;
+}
+
+.products {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 8px;
+    margin-top: 2px;
+    min-width: 28px;
+}
+
+.home-4 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 28px;
+}
+
+.home-5 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 28px;
+}
+
+.watchgoods-low-resol {
+    height: 9px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 73px;
+    margin-left: 0;
+}
+
+.home {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 102px;
+    margin-top: 1px;
+    min-width: 19px;
+}
+
+.home-1 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    min-width: 19px;
+}
+
+.overlap-group2 {
+    height: 75px;
+    position: relative;
+    width: 360px;
+}
+
+.watchgoods-low-resol-1 {
+    height: 13px;
+    left: 125px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 110px;
+    margin-top: -2px;
+}
+
+.rectangle-17 {
+    background: radial-gradient(100% 80% at 50% 50%, rgb(9.92, 9.92, 9.92) 0%, rgb(9.92, 9.92, 9.92) 39.07%, rgba(9.92, 9.92, 9.92, 0) 93.05%);
+    height: 77px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 360px;
+    margin-top: -5px;
+}
+
+.gmail {
+    height: 13px;
+    top: 33px;
+    width: 20px;
+}
+
+.about-us .gmail {
+    left: 110px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.about-us .ig {
+    left: 110px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.watchgoodsgmailcom {
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 31px;
+    width: 119px;
+}
+
+.rectangle-16 {
+    border: 1.5px solid;
+    border-color: #6c5c36;
+    height: 41px;
+    left: 107px;
+    position: absolute;
+    top: 28px;
+    width: 146px;
+    margin-top: -2px;
+}
+
+.ig {
+    height: 20px;
+    top: 49px;
+    width: 20px;
+    margin-top: 48px;
+    margin-left: 0px;
+}
+
+.watchgoodsofficial {
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+    width: 119px;
+    margin-top: 2px;
+}

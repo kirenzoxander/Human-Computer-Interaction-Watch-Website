@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css?family=Scheherazade:400,700|Poppins:400,600|Vast+Shadow:400|Scope+One:400|Playfair+Display:700|Shojumaru:400");
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --woodsmoke: rgba(16, 16, 16, 1);
+    --yellow-metal: rgba(108, 92, 54, 1);
+    --yellow-metal-2: rgba(109, 92, 54, 1);
+    --quill-gray: rgba(210, 210, 210, 1);
+    --gold: rgba(255, 215, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxs: 5px;
+    --font-size-xxs: 6px;
+    --font-size-s: 9px;
+    --font-size-m: 12px;
+    --font-size-l: 14px;
+    --font-size-xl: 15px;
+    --font-size-m2: 8px;
+
+    --font-family-playfair_display: "Playfair Display";
+    --font-family-poppins: "Poppins";
+    --font-family-scheherazade: "Scheherazade";
+    --font-family-scope_one: "Scope One";
+    --font-family-vast_shadow: "Vast Shadow";
+}
+
+/* Classes */
+
+.vastshadow-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-vast_shadow);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}.scheherazade-normal-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}.scopeone-normal-black-6px {
+    color: var(--black);
+    font-family: var(--font-family-scope_one);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}.poppins-normal-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-black-8px {
+    color: var(--b);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-bold-black-5px {
+    color: var(--black);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-semi-bold-quill-gray-15px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-normal-quill-gray-12px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-gold-8px {
+    color: var(--gold);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-white-8px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.home {
+    align-items: flex-start;
+    background-color: var(--yellow-metal);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    overflow: hidden;
+    width: 360px;
+}
+
+.overlap-group {
+   height: 770px;
+   position: relative;
+   width: 458px;
+}
+
+.hublotlogo-1 {
+    cursor: pointer;
+    height: 21px;
+    left: 258px;
+    object-fit: cover;
+    position: absolute;
+    top: 344px;
+    width: 40px;
+}
+
+.home .pngwing {
+    object-fit: cover;
+    position: absolute;
+}
+
+.premiumquality {
+    height: 80px;
+    left: 302px;
+    object-fit: cover;
+    position: absolute;
+    top: 465px;
+    width: 80px;
+}
+
+.cartierlogo-1 {
+    cursor: pointer;
+    height: 20px;
+    left: 196px;
+    object-fit: cover;
+    position: absolute;
+    top: 344px;
+    width: 42px;
+}
+
+.rolexlogo-1 {
+    cursor: pointer;
+    height: 22px;
+    left: 135px;
+    object-fit: cover;
+    position: absolute;
+    top: 343px;
+    width: 41px;
+}
+
+.rectangle-8 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 192px;
+    position: absolute;
+    top: 339px;
+    width: 49px;
+}
+
+.rectangle-17 {
+    background: linear-gradient(270deg, rgb(9.92, 9.92, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0) 100%);
+    height: 96px;
+    left: 98px;
+    position: absolute;
+    top: 212px;
+    width: 360px;
+}
+
+.piagetlogo-1 {
+    cursor: pointer;
+    height: 16px;
+    left: 380px;
+    object-fit: cover;
+    position: absolute;
+    top: 387px;
+    width: 40px;
+}
+
+.rectangle-6 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 131px;
+    position: absolute;
+    top: 380px;
+    width: 49px;
+}
+
+.watchgoods-low-resol-2 {
+    height: 13px;
+    left: 223px;
+    top: 704px;
+    width: 110px;
+}
+
+.home .watchgoods-low-resol-3 {
+    object-fit: cover;
+    position: absolute;
+}
+
+.yearwarranty {
+    height: 80px;
+    left: 302px;
+    object-fit: cover;
+    position: absolute;
+    top: 582px;
+    width: 80px;
+}
+
+.rectangle-2 {
+    background: radial-gradient(100% 80% at 50% 50%, rgb(9.92, 9.92, 9.92) 0%, rgb(9.92, 9.92, 9.92) 39.07%, rgba(9.92, 9.92, 9.92, 0) 95.05%);
+    height: 73px;
+    left: 98px;
+    position: absolute;
+    top: 697px;
+    width: 360px;
+}
+
+.home-11 {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    left: -10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 225px;
+    white-space: nowrap;
+    width: 346px;
+}
+
+.purchase-warranty {
+    left: 283px;
+    letter-spacing: 0;
+    line-height: normal;
+    position:absolute;
+    top: 666px;
+    width: 200px;
+}
+
+.omegalogo-1 {
+    cursor: pointer;
+    height: 23px;
+    left: 134px;
+    object-fit: cover;
+    position: absolute;
+    top: 385px;
+    width: 43px;
+}
+
+.watchgoodsgmailcom {
+    left: 229px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 728px;
+    width: 119px;
+}
+
+.rectangle-12 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 192px;
+    position: absolute;
+    top: 380px;
+    width: 49px;
+}
+
+.chopardlogo-1 {
+    cursor: pointer;
+    height: 22px;
+    left: 256px;
+    object-fit: cover;
+    position: absolute;
+    top: 384px;
+    width: 44px;
+}
+
+.goldcoin {
+    height: 80px;
+    left: 141px;
+    object-fit: cover;
+    position: absolute;
+    top: 462px;
+    width: 80px;
+}
+
+.gmaillogo-1 {
+    height: 20px;
+    left: 208px;
+    object-fit: cover;
+    position: absolute;
+    top: 723px;
+    width: 20px;
+}
+
+.rectangle-14 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 314px;
+    position: absolute;
+    top: 380px;
+    width: 49px;
+}
+
+.panerailogo-1 {
+    cursor: pointer;
+    height: 21px;
+    left: 318px;
+    object-fit: cover;
+    position: absolute;
+    top: 384px;
+    width: 42px;
+}
+
+.rectangle-3 {
+    background-color: var(--woodsmoke);
+    height: 272px;
+    left: 98px;
+    position: absolute;
+    top: 425px;
+    width: 360px;
+}
+
+.rectangle-11 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 375px;
+    position: absolute;
+    top: 339px;
+    width: 49px;
+}
+
+.rectangle-5 {
+    background-color: var(--woodsmoke);
+    height: 117px;
+    left: 98px;
+    position: absolute;
+    top: 308px;
+    width: 360px;
+}
+
+.watchgoodsofficial {
+    left: 229px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 747px;
+    width: 119px;
+}
+
+.surname {
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+    width: 200px;
+}
+
+.trustedseller {
+    height: 80px;
+    left: 141px;
+    object-fit: cover;
+    position: absolute;
+    top: 582px;
+    width: 80px;
+}
+
+.pateklogo-1 {
+    cursor: pointer;
+    height: 21px;
+    left: 319px;
+    object-fit: cover;
+    position: absolute;
+    top: 344px;
+    width: 39px;
+}
+
+.rectangle-10 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 314px;
+    position: absolute;
+    top: 339px;
+    width: 49px;
+}
+
+.why {
+    left: 140px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 435px;
+    width: 271px;
+}
+
+.rectangle-16 {
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 41px;
+    left: 205px;
+    position: absolute;
+    top: 723px;
+    width: 146px;
+}
+
+.premium-quality-guaranteed {
+    left: 260px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+    width: 200px;
+}
+
+.montblanclogo-1 {
+    cursor: pointer;
+    height: 22px;
+    left: 380px;
+    object-fit: cover;
+    position: absolute;
+    top: 343px;
+    width: 40px;
+}
+
+.our-brands {
+    left: 233px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 311px;
+    width: 90px;
+}
+
+.tagheuerlogo-1 {
+    cursor: pointer;
+    height: 23px;
+    left: 204px;
+    object-fit: cover;
+    position: absolute;
+    top: 384px;
+    width: 26px;
+}
+
+.rectangle-13 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 253px;
+    position: absolute;
+    top: 380px;
+    width: 49px;
+}
+
+.watchgoods-low-resol-1 {
+    height: 45px;
+    left: 122px;
+    top: 246px;
+    width: 312px;
+}
+
+.iglogo-1 {
+    height: 20px;
+    left: 208px;
+    object-fit: cover;
+    position: absolute;
+    top: 743px;
+    width: 20px;
+}
+
+.rectangle-9 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 253px;
+    position: absolute;
+    top: 339px;
+    width: 49px;
+}
+
+.rectangle-15 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 375px;
+    position: absolute;
+    top: 380px;
+    width: 49px;
+}
+
+.image-1 {
+    height: 220px;
+    left: 98px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 360px;
+}
+
+.rectangle-7 {
+    background-color: var(--white);
+    border: 1.5px solid;
+    border-color: var(--yellow-metal);
+    height: 30px;
+    left: 131px;
+    position: absolute;
+    top: 339px;
+    width: 49px;
+}
+
+.trusted-seller {
+    left: 137px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 666px;
+    width: 200px;
+}
+
+.overlap-group1 {
+    align-items: flex-start;
+    background: linear-gradient(150deg, rgb(9.92, 9.922, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0)100%);
+    display: flex;
+    height: 30px;
+    min-width: 360px;
+    padding: 8px 7px;
+}
+
+.locations {
+    align-items: flex;
+    cursor: pointer;
+    display: flex;
+    margin-left: 378px;
+    min-width: 25px;
+    margin-bottom: 20px;
+    margin-top: -12px;
+}
+
+.home-7 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 25px;
+}
+
+.home-8 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 25px;
+}
+
+.contact-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: 0;
+    margin-left: 417px;
+    min-width: 31px;
+    height : 18px;
+    margin-top: -32px;
+}
+
+.home-9 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 31px;
+}
+
+.home-10 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 31px;
+}
+
+.home-container {
+    height: 12px;
+    margin-left: -178px;
+    position: relative;
+    width: 19px;
+}
+
+.home-1 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 370px;
+    min-width: 28px;
+    margin-top: -5px;
+    min-height: -15px;
+}
+
+.home .place-2 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 12px;
+    width: 19px;
+    margin-left: -89px;
+    margin-top: 6px;
+}
+
+.place-1 {
+    -webkit-text-stroke: 1px var(--black);
+    color: #ffd700;
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    margin-left: -180px;
+    margin-top: 0px;
+}
+
+.home-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 19px;
+    margin-top: 0px;
+}
+
+.place {
+    margin-top: 5px;
+}
+
+.watchgoods-low-resol {
+    height: 9px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 73px;
+}
+
+.about-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 310px;
+    min-width: 27px;
+}
+
+.home-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 27px;
+}
+
+.home-4 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 27px;
+}
+
+.products {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    margin-left: 345px;
+    min-width: 28px;
+    margin-top: -12px;
+}
+
+.home-5 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    min-width: 28px;
+}
+
+.home-6{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 28px;
+}

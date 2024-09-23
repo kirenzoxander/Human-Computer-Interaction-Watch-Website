@@ -1,0 +1,576 @@
+@import url("https://fonts.googleapis.com/css?family=Scheherazade:400,700|Poppins:400,600|Vast+Shadow:400|Scope+One:400|Playfair+Display:700|Shojumaru:400");
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --woodsmoke: rgba(16, 16, 16, 1);
+    --yellow-metal: rgba(108, 92, 54, 1);
+    --yellow-metal-2: rgba(109, 92, 54, 1);
+    --quill-gray: rgba(210, 210, 210, 1);
+    --gold: rgba(255, 215, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxs: 5px;
+    --font-size-xxs: 6px;
+    --font-size-s: 9px;
+    --font-size-m: 12px;
+    --font-size-l: 14px;
+    --font-size-xl: 15px;
+    --font-size-m2: 8px;
+
+    --font-family-playfair_display: "Playfair Display";
+    --font-family-poppins: "Poppins";
+    --font-family-scheherazade: "Scheherazade";
+    --font-family-scope_one: "Scope One";
+    --font-family-vast_shadow: "Vast Shadow";
+}
+
+/* Classes */
+
+.vastshadow-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-vast_shadow);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}.scheherazade-normal-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}.scopeone-normal-black-6px {
+    color: var(--black);
+    font-family: var(--font-family-scope_one);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}.poppins-normal-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-black-8px {
+    color: var(--b);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-bold-black-5px {
+    color: var(--black);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-semi-bold-quill-gray-15px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+}
+.poppins-normal-quill-gray-12px {
+    color: var(--quill-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-gold-8px {
+    color: var(--gold);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.scheherazade-normal-white-8px {
+    color: var(--white);
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    font-style: normal;
+}
+.playfairdisplay-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-playfair_display);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+.playfairdisplay-bold-white-20px{
+    color: var(--white);
+    font-family: var(--font-family-playfair_display);
+    font-size: 20;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.locations {
+    align-items: center;
+    background-color: #6d5c36;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 360px;
+}
+
+.flex-row-2 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 6px;
+    margin-top: 27px;
+    min-width: 334px;
+}
+
+.switzerlandflag {
+    height: 138px;
+    object-fit: cover;
+    width: 175px;
+    margin-top: -15px;
+}
+
+.franceflag {
+    height: 138px;
+    object-fit: cover;
+    width: 175px;
+    margin-left: 4px;
+}
+
+.germanyflag {
+    height: 138px;
+    object-fit: cover;
+    width: 175px;
+    margin-left: 4px;
+}
+
+.indonesiaflag{
+    height: 138px;
+    object-fit: cover;
+    width: 175px;
+    margin-left: 4px;
+}
+
+.flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    min-height: 78px;
+    width: 149px;
+}
+
+.pacific-place-mall {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 1px;
+    min-height: 29px;
+    text-align: center;
+    width: 148px;
+}
+
+.overlap-group2 {
+    height: 49px;
+    position: relative;
+    width: 148px;
+}
+
+.link {
+    cursor: pointer;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+    width: 148px;
+}
+
+.place-1 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 148px;
+}
+
+.locations .place-3 {
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.locations .flex {
+    align-items: center;
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    min-height: 541px;
+    width: 360px;
+}
+
+.flex-row-1 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 27px;
+    min-width: 333px;
+}
+
+.overlap-group1 {
+    height: 71px;
+    margin-bottom: 7px;
+    position: relative;
+    width: 148px;
+}
+
+.werre-park {
+    cursor: pointer;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 47px;
+    width: 148px;
+}
+
+.mall-of-berlin {
+    cursor: pointer;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 27px;
+    width: 148px;
+}
+
+.overlap-group4 {
+    height: 30px;
+    position: relative;
+    width: 360px;
+}
+
+.about-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 214px;
+    width: 27px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    width: 27px;
+}
+
+.home-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 12px;
+    width: 27px;
+}
+
+.products {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 248px;
+    width: 28px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-4 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    width: 28px;
+}
+
+.home-5 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    height: 12px;
+    width: 28px;
+}
+
+.rectangle-1 {
+    background: linear-gradient(150deg, rgb(9.92, 9.92, 9.92) 15.57%, rgba(9.92, 9.92, 9.92, 0) 100%);
+    height: 30px;
+    position: absolute;
+    width: 360px;
+}
+
+.contact-us {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 310px;
+    width: 31px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    width: 31px;
+}
+
+.home-9 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    height: 12px;
+    width: 31px;
+}
+
+.home-10 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    left: 186px;
+    width: 19px;
+    position: absolute;
+    top: 8px;
+}
+
+.home {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    width: 19px;
+}
+
+.place {
+    margin-top: -1px;
+    height: 12px;
+    width: 19px;
+}
+
+.home-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    left: 186px;
+    width: 19px;
+    position: absolute;
+    top: 8px;
+}
+
+.locations-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    left: 280px;
+    width: 25px;
+    position: absolute;
+    top: 8px;
+}
+
+.home-6 {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    width: 25px;
+}
+
+.home-7 {
+    color: gold;
+    font-family: var(--font-family-scheherazade);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    height: 12px;
+    width: 25px;
+}
+
+.watchgoods-low-resol {
+    height: 9px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 73px;
+}
+
+.erla-container {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    margin-left: 11px;
+    margin-top: 1px;
+    width: 329px;
+}
+
+.overlap-group {
+    height: 73px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 149px;
+}
+
+.place-2 {
+    left: 1px;
+    position: absolute;
+    text-align: center;
+    width: 148px;
+}
+
+.seedamm-mall {
+    cursor: pointer;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 47px;
+    width: 148px;
+}
+
+.flex-row {
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 23px;
+    width: 333px;
+}
+
+.overlap-group5 {
+    height: 70px;
+    margin-bottom: 22px;
+    position: relative;
+    width: 148px;
+}
+
+.aroville {
+    cursor: pointer;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 148px;
+}
+
+.val-d-europe {
+    cursor: pointer;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    width: 148px;
+}
+
+.find-us-click-on-the-location {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 1px;
+    margin-top: 35px;
+    height: 38px;
+    text-align: center;
+    width: 279px;
+}
+
+.grou-container {
+    align-items: center;
+    background: radial-gradient(100% 80% at 50% 50%, rgb(9.92, 9.92, 9.92) 0%, rgb(9.92, 9.92, 9.92) 39.07%, rgba(9.92, 9.92, 9.92, 0) 93.05%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 80px;
+    padding: 0px 0px;
+    width: 360px;
+}
+
+.watchgoods-low-resol-1 {
+    height: 13px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 110px;
+}
+
+.flex-row-3 {
+    align-items: flex-start;
+    border: 1.5px solid;
+    border-color: #6c5c36;
+    display: flex;
+    gap: 3px;
+    height: 41px;
+    justify-content: flex-end;
+    width: 146px;
+    padding: 3px;
+}
+
+.pngwing-container {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1px;
+    height: 32px;
+    width: 15px;
+}
+
+.pngwing-5 {
+    height: 16px;
+    object-fit: cover;
+    width: 15px;
+}
+
+.pngwing-4 {
+    height: 11px;
+    object-fit: cover;
+    width: 14px;
+}
+
+.watchgoods-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 29px;
+    width: 119px;
+}
+
+.watchgoods {
+    letter-spacing: 0;
+    line-height: normal;
+    height: 12px;
+    width: 119px;
+    margin-top: 2px;
+}
